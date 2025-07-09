@@ -1,8 +1,7 @@
 #include <stdio.h>
-void numeros(){ //void
-    int num[6];
+void numeros(int num[]){ //void
     for(int i = 1; i <= 6; i++){
-   printf("\nNumeros digitados: %d\n", num[6]);
+   printf("\nNumeros digitados: %d\n", num[i]);
     }
 }
 
@@ -12,6 +11,6 @@ int main(){
         printf("Informe um numero: ");
         scanf("%d", &num[i]);
 }
-numeros();
+numeros(num);
 return 0;
 }
