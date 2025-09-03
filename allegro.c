@@ -13,4 +13,5 @@ int main(void){
 
     al_destroy_display(janela);
 return 0;
+
 }
