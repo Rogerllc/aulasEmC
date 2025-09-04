@@ -1,0 +1,21 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build Allegro (Shell Command)",
+            "type": "shell",
+            "command": "gcc -g -Wall \"${file}\" -o \"${fileDirname}/${fileBasenameNoExtension}\" $(pkg-config --libs --cflags allegro-5 allegro_primitives-5)",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            }
+        }
+    ]
+}
