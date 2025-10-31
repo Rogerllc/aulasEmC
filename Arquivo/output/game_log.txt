@@ -1,0 +1,2 @@
+Jogador_encontrou_item_raro
+Monstro_Elite_Derrotado
