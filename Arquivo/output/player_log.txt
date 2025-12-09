@@ -3,4 +3,4 @@
 102 100
 103 25
 104 50
-105 10Programa Finalizado
+105 10Programa finalizado
